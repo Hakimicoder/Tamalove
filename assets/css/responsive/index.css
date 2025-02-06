@@ -1,0 +1,150 @@
+
+@media screen and (max-width:1300px) {
+
+    .header-sub {
+        height: auto;
+    }
+
+    .banner {
+        color: var(--white);
+        height: 100%;
+        padding: 3rem 1rem;
+    }
+
+    .soulmate {
+        display: none;
+    }
+}
+
+@media screen and (max-width:980px) {
+    section,
+    .footer-one {
+        padding: 2.5rem 1.5rem;
+    }
+
+    .header-sub {
+        height: auto;
+    }
+
+    .navlinks ul li {
+        display: none;
+    }
+
+    .navlinks ul:nth-of-type(4) {
+        display: block;
+    }
+
+    .banner {
+        color: var(--white);
+        height: auto;
+        padding: 8rem 2rem 4rem;
+    }
+
+    .soulmate {
+        display: none;
+    }
+
+    .how-work {
+        padding: 5rem 2rem;
+    }
+
+    .choose .container {
+        flex-direction: column;
+    }
+
+    .choose .container .content,
+    .choose .container .img {
+        width: 100%;
+    }
+
+    .it .icon {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .footer-one {
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        gap: .2rem;
+    }
+
+    .footer-cart:nth-of-type(5) h2 {
+        margin-bottom: 1rem;
+    }
+
+}
+
+@media screen and (max-width:620px) {
+
+    section,
+    .footer-one {
+        padding: 2rem 1.2rem;
+    }
+
+/* spinner start */
+
+    .spinner-bloc img {
+        width: 230px;
+        height: 140px;
+        animation: zoomIn 1s;
+    }
+
+/* spinner end */
+
+    .banner h1 {
+        font-size: 1.6rem;
+    }
+
+    .banner .active {
+        font-size: 2.8rem;
+    }
+
+    .navbar {
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+        margin-bottom: 1.2rem;
+        color: var(--red);
+    }
+    
+    p {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .banner {
+        color: var(--white);
+        height: auto;
+        padding: 5rem 1rem 3rem;
+    }
+
+    .how-work {
+        padding: 2rem 1rem;
+    }
+
+    .story .story-cart {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .story .story-text, 
+    .story .story-img {
+        width: 100%;
+    }
+
+    .footer-cart h2 {
+        font-size: 1.2rem;
+    }
+
+}
+
+
+@media screen and (max-width:340px) {
+    .cart {
+        width: 100%;
+        overflow: hidden;
+    }
+}
